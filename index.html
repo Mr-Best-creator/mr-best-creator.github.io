@@ -13,7 +13,13 @@
     <button onclick="showAlert()">テスト</button>
     <script>
       function showAlert() {
-        alert("テスト成功！ボタンがクリックされました！");
+        let date = new Date()
+        if (date.getFullYear() == 2025) {
+          location.href = 'https://mr-best-creator.github.io/new-year/new-year.html';
+        }
+        else {
+          alert("残念ながらアクセスできないようです...")
+        }
       }
     </script>
   </body>
