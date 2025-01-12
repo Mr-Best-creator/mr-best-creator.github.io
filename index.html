@@ -6,10 +6,24 @@
     <title>Mr.Best (mr-best-creator)サイトホーム</title>
   </head>
   <body>
-    <ul>
+    <ul class="menu">
       <li>
-        <button onclick="" class="homebutton">Home</button>
+        <button onclick="home" >Home</button>
         <script>function home() {location.href = 'https://mr-best-creator.github.io/index.html'}</script>
+      </li>
+      <li>
+        <button onclick="newYearPage" >お正月！特設ページ！</button>
+        <script>
+          function newYearPage() {
+            let date = new Date();
+            if (date.getFullYear() == 2025) {
+              location.href = 'https://mr-best-creator.github.io/new-year/2025/new-year.html';
+            }
+            else {
+              alert("残念ながらアクセスできないようです...");
+            }
+          }
+        </script>
       </li>
     </ul>
     <h1>現在作成中</h1>
