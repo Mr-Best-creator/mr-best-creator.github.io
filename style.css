@@ -1,5 +1,8 @@
 .menu{
   overflow: hidden;
+}
+
+.menu ul{
   position: fixed;
   top: 0;
   left: 0;
