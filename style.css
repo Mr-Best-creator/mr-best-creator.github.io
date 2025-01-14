@@ -9,6 +9,14 @@
 .menu li button{
   color: #fff;
   font-weight: bold;
+  width: 3en;
+  height: 1.5en;
+  font-size: 1.5em;
+}
+
+.menu li a{
+  color: #000;
+  font-weight: bold;
 }
 
 .homebutton{
