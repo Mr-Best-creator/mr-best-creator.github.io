@@ -4,6 +4,7 @@
 
 .menu li{
   float: left;
+  list-style: none;
 }
 
 .menu li button{
