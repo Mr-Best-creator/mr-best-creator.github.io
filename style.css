@@ -27,7 +27,7 @@
 .menu li a{
   color: #3030ff;
   backgraund-color: rgba(188, 226, 232, 0.5);
-  text-decoration: none;
+  text-decoration-line: none;
   font-weight: bold;
   width: 3en;
   height: 1.5en;
