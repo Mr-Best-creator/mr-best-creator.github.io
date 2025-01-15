@@ -6,7 +6,8 @@
 }
 
 .menu ul{
-  
+  width: 2em;
+  height: 3em;
 }
 
 .menu li{
@@ -25,6 +26,8 @@
 
 .menu li a{
   color: #3030ff;
+  backgraund-color: rgba(188, 226, 232, 0.5);
+  text-decoration: none;
   font-weight: bold;
   width: 3en;
   height: 1.5en;
