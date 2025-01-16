@@ -8,6 +8,7 @@
 .menu ul{
   width: 2em;
   height: 3em;
+  display: flex;
 }
 
 .menu li{
