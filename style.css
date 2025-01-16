@@ -12,12 +12,12 @@
   display: flex;
 }
 
-.menu li{
+.menu ul li{
   float: left;
   list-style: none;
 }
 
-.menu li button{
+.menu ul li button{
   color: #3030ff;
   font-weight: bold;
   width: 3en;
@@ -26,7 +26,7 @@
   border-radius: 0;
 }
 
-.menu li a{
+.menu ul li a{
   color: #3030ff;
   text-decoration-line: none;
   font-weight: bold;
