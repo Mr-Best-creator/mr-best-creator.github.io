@@ -35,6 +35,8 @@
   height: 1.5en;
   font-size: 1.5em;
   border-radius: 0;
+  display: block;
+  margin-right: 1.5em;
 }
 
 .homebutton{
