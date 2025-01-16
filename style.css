@@ -3,6 +3,8 @@
   position: sticky;
   top: 0;
   left: 0;
+  padding-top: 1em;
+  backgraund-color: rgba(188, 226, 232, 0.5);
 }
 
 .menu ul{
@@ -27,7 +29,6 @@
 
 .menu li a{
   color: #3030ff;
-  backgraund-color: rgba(188, 226, 232, 0.5);
   text-decoration-line: none;
   font-weight: bold;
   width: 3en;
