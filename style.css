@@ -7,8 +7,6 @@
 }
 
 .menu ul{
-  width: 2em;
-  height: 3em;
   display: flex;
 }
 
@@ -30,8 +28,8 @@
   color: #3030ff;
   text-decoration-line: none;
   font-weight: bold;
-/*  width: 3en;*/
-/*  height: 1.5en;*/
+  width: 3en;
+  height: 1.5en;
   font-size: 1.5em;
   border-radius: 0;
   display: block;
