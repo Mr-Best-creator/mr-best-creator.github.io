@@ -1,4 +1,7 @@
-.menu{
+body {
+  margin: 0px;
+}
+.menu {
   overflow: hidden;
   position: sticky;
   top: 0;
@@ -6,16 +9,16 @@
   background-color: #a0d8efcc;
 }
 
-.menu ul{
+.menu ul {
   display: flex;
 }
 
-.menu ul li{
+.menu ul li {
   float: left;
   list-style: none;
 }
 
-.menu ul li button{
+.menu ul li button {
   color: #3030ff;
   font-weight: bold;
   width: 3en;
@@ -24,7 +27,7 @@
   border-radius: 0;
 }
 
-.menu ul li a{
+.menu ul li a {
   color: #3030ff;
   text-decoration-line: none;
   font-weight: bold;
@@ -38,7 +41,7 @@
   margin-right: 1.5em;
 }
 
-.homebutton{
+.homebutton {
   width: 3en;
   height: 1.5en;
   font-size: 1.5em;
