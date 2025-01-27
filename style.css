@@ -49,4 +49,5 @@ body {
 
 .main {
   margin: 8xp;
+  display: block;
 }
