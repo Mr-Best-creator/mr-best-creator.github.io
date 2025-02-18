@@ -11,12 +11,13 @@ body {
 
 .menu ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .menu ul li {
   float: left;
   list-style: none;
+  text-align:center;
 }
 
 .menu ul li button {
