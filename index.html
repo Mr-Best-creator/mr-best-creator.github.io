@@ -23,6 +23,7 @@
   
       <button onclick="newYearPage()" class="homebutton" id="new_year">お正月！特設ページ！</button>
       <script>
+        let date = new Date()
         if ((date.getMonth()+1) == 1) {
           document.getElementById('new_year').style.display = 'block';
         }
