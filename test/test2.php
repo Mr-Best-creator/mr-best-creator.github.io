@@ -7,7 +7,7 @@
   </head>
   <body>
     <?php include "./../preset/nav.html" ?>
-  <div class="main">
+    <div class="main">
       <h1>現在作成中</h1>
       <p>今後操作性の改善作成したアプリ等の追加を行います！</p>
       <p>お楽しみに！</p>
