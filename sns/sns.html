@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Mr.Best (mr-best-creator)サイト ホーム</title>
+  </head>
+  <body>
+    <div id="nav-placeholder" class="menu"></div>
+    <script>
+      fetch("./preset/nav.html")
+    .then(response => response.text())  // nav.html を取得
+    .then(data => {
+        const navPlaceholder = document.getElementById("nav-placeholder");
+        navPlaceholder.innerHTML = data; // 取得したHTMLを挿入
+
+        requestAnimationFrame(() => {
+            const navElement = navPlaceholder.querySelector("nav");
+            if (navElement) {
+                navPlaceholder.style.height = navElement.offsetHeight + "px";
+            }
+        });
+    })
+    .catch(error => console.error("ナビゲーションの読み込みに失敗しました", error));
+    </script>
+    <div class="main">
+      <h1>公式SNS</h1>
+      <h3>YouTube</h3>
+      <p>そらちゃんのモノづくり工房</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/?list=UUGBgS-GVxc3KceAgh12wkBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <a href="https://youtube.com/channel/UCGBgS-GVxc3KceAgh12wkBA?si=GCSXWLnK1tSShTKL">チャンネルへ移動</a>
+    </div>
+  </body>
+</html>
