@@ -6,22 +6,23 @@
     <title>Mr.Best (mr-best-creator)サイト ホーム</title>
   </head>
   <body>
-    <nav class="menu">
-      <ul>
-        <li>
-          <a href="https://mr-best-creator.github.io/index.html">Home</a>
-        </li>
-        <li>
-          <a href="https://mr-best-creator.github.io/links/links.html">links</a>
-        </li>
-        <li>
-          <a href="https://mr-best-creator.github.io/apps/apps.html">apps</a>
-        </li>
-        <li>
-          <a href="https://mr-best-creator.github.io/blogs/blogs.html">blog</a>
-        </li>
-      </ul>
-    </nav>
+    <div id="nav-placeholder" class="menu"></div>
+    <script>
+      fetch("./preset/nav.html")
+    .then(response => response.text())  // nav.html を取得
+    .then(data => {
+        const navPlaceholder = document.getElementById("nav-placeholder");
+        navPlaceholder.innerHTML = data; // 取得したHTMLを挿入
+
+        requestAnimationFrame(() => {
+            const navElement = navPlaceholder.querySelector("nav");
+            if (navElement) {
+                navPlaceholder.style.height = navElement.offsetHeight + "px";
+            }
+        });
+    })
+    .catch(error => console.error("ナビゲーションの読み込みに失敗しました", error));
+    </script>
     <div class="main">
       <h1>links</h1>
       <iframe src="https://discord.com/widget?id=1317602128071491635&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
