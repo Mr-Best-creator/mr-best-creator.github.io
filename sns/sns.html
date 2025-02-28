@@ -2,13 +2,13 @@
 <html lang="jp">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./../style.css">
     <title>Mr.Best (mr-best-creator)サイト ホーム</title>
   </head>
   <body>
     <div id="nav-placeholder" class="menu"></div>
     <script>
-      fetch("./preset/nav.html")
+      fetch("./../preset/nav.html")
     .then(response => response.text())  // nav.html を取得
     .then(data => {
         const navPlaceholder = document.getElementById("nav-placeholder");
