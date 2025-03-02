@@ -23,7 +23,7 @@
 
                 // 特定の位置の領域を取得 (例: x=50, Y=50, 幅=10, 高さ=1 の横10ピクセル)
                 const x = 50, y = 50, width = 10, height = 1;
-                const imagData = ctx.getImageData(x, y, width, height);
+                const imageData = ctx.getImageData(x, y, width, height);
                 console.log("imageData:", imageData);
                 const pixels = imageData.data;
                 console.log("取得したピクセルデータ:", pixels)
